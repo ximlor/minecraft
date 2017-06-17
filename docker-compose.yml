@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+
+### Applications Code Container #############################
+
+    applications:
+      image: tianon/true
+      volumes:
+        - ./docker:/data
+
+### Server Container #########################################
+
+    server:
+      build: ./docker
+      volumes_from:
+        - applications
+      ports:
+          - "25565:25565"
+
