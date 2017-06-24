@@ -1,1 +1,4 @@
 .idea
+docker/world
+docker/crash-reports
+docker/logs
