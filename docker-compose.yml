@@ -7,7 +7,7 @@ services:
     applications:
       image: tianon/true
       volumes:
-        - ./docker:/data
+        - ./data:/data
 
 ### Server Container #########################################
 

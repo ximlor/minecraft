@@ -1,4 +1,2 @@
 .idea
-docker/world
-docker/crash-reports
-docker/logs
+.DS_Store
